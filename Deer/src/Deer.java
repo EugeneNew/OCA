@@ -8,6 +8,7 @@ public class Deer {
     private boolean hasHorns() {
         return false;
     }
+
     public static void main(String[] args) {
         Deer deer = new Reindeer(5);
         System.out.println(","+deer.hasHorns());
@@ -15,7 +16,7 @@ public class Deer {
 }
 class Reindeer extends Deer {
     public Reindeer(int age) {
-        //super(age);
+//        super(age);
         System.out.print("Reindeer");
     }
     public boolean hasHorns() {
