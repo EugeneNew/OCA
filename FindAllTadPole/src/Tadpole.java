@@ -1,0 +1,2 @@
+class Tadpole extends Amphibian {
+}
