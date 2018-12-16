@@ -1,1 +1,1 @@
-public interface Animal { default String getName() { return null; } }
+public interface Animal {  default String getName(); { return null; }  }

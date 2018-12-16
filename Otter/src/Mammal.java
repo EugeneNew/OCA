@@ -1,1 +1,1 @@
-interface Mammal { default String getName() { return null; } }
+interface Mammal {  default String getName() { return null; } }
